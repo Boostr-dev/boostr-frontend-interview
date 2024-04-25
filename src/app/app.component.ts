@@ -10,4 +10,8 @@ export class AppComponent {
   mainData$ = this.mainDataService.getMainData();
 
   constructor(private mainDataService: MainDataService) {}
+
+  onSubmitNewsletter(): void {
+    // Log newsletter email to console
+  }
 }
